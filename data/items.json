@@ -1,0 +1,58 @@
+[
+  {
+    "id": "shop",
+    "title": "فروشگاه اینترنتی",
+    "description": "خرید آنلاین قطعات و ربات‌ها",
+    "url": "https://example.com/shop",
+    "icon": "store"
+  },
+  {
+    "id": "catalog",
+    "title": "کاتالوگ محصولات",
+    "description": "مشاهده‌ی کامل محصولات",
+    "url": "https://example.com/catalog",
+    "icon": "grid"
+  },
+  {
+    "id": "instagram",
+    "title": "اینستاگرام",
+    "description": "آخرین محصولات و پروژه‌ها",
+    "url": "https://instagram.com/robotmarket",
+    "icon": "instagram"
+  },
+  {
+    "id": "telegram",
+    "title": "کانال تلگرام",
+    "description": "اخبار و تخفیف‌های ویژه",
+    "url": "https://t.me/robotmarket",
+    "icon": "telegram"
+  },
+  {
+    "id": "whatsapp",
+    "title": "واتساپ",
+    "description": "سفارش و مشاوره سریع",
+    "url": "https://wa.me/989120000000",
+    "icon": "whatsapp"
+  },
+  {
+    "id": "youtube",
+    "title": "یوتیوب",
+    "description": "آموزش و بررسی محصولات",
+    "url": "https://youtube.com/@robotmarket",
+    "icon": "youtube"
+  },
+  {
+    "id": "support",
+    "title": "پشتیبانی آنلاین",
+    "description": "گفت‌وگو با تیم پشتیبانی",
+    "url": "https://example.com/support",
+    "icon": "chat"
+  },
+  {
+    "id": "call",
+    "title": "تماس تلفنی",
+    "description": "۹ صبح تا ۹ شب، همه‌روزه",
+    "url": "tel:+982100000000",
+    "icon": "phone"
+  }
+]
