@@ -1,10 +1,12 @@
 const CACHE_NAME = "robot-market-v1";
+const BASE_PATH = self.registration.scope.replace(self.location.origin, "").replace(/\/$/, "");
+const withBasePath = (path) => `${BASE_PATH}${path}`;
 const APP_SHELL = [
-  "/",
-  "/manifest.json",
-  "/logo.png",
-  "/icons/icon-192.png",
-  "/icons/icon-512.png",
+  withBasePath("/"),
+  withBasePath("/manifest.json"),
+  withBasePath("/logo.png"),
+  withBasePath("/icons/icon-192.png"),
+  withBasePath("/icons/icon-512.png"),
 ];
 
 self.addEventListener("install", (event) => {
@@ -36,7 +38,7 @@ self.addEventListener("fetch", (event) => {
   // Navigation requests: network-first, fall back to cached shell offline.
   if (request.mode === "navigate") {
     event.respondWith(
-      fetch(request).catch(() => caches.match("/"))
+      fetch(request).catch(() => caches.match(withBasePath("/")))
     );
     return;
   }

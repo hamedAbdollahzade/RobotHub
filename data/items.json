@@ -1,58 +1,44 @@
 [
   {
-    "id": "shop",
-    "title": "فروشگاه اینترنتی",
-    "description": "خرید آنلاین قطعات و ربات‌ها",
-    "url": "https://example.com/shop",
+    "id": "phone",
+    "title": "ثبت سفارش تلفنی",
+    "description": "۰۹۱۵۱۶۰۱۸۴۷",
+    "url": "tel:09151601847",
+    "icon": "phone"
+  },
+  {
+    "id": "website",
+    "title": "وب‌سایت",
+    "description": "my-rm.com",
+    "url": "https://my-rm.com/",
     "icon": "store"
   },
   {
-    "id": "catalog",
-    "title": "کاتالوگ محصولات",
-    "description": "مشاهده‌ی کامل محصولات",
-    "url": "https://example.com/catalog",
-    "icon": "grid"
-  },
-  {
     "id": "instagram",
-    "title": "اینستاگرام",
-    "description": "آخرین محصولات و پروژه‌ها",
-    "url": "https://instagram.com/robotmarket",
+    "title": "صفحه اینستاگرام",
+    "description": "vending_machin_life",
+    "url": "http://instagram.com/vending_machin_life",
     "icon": "instagram"
   },
   {
-    "id": "telegram",
-    "title": "کانال تلگرام",
-    "description": "اخبار و تخفیف‌های ویژه",
-    "url": "https://t.me/robotmarket",
-    "icon": "telegram"
-  },
-  {
-    "id": "whatsapp",
-    "title": "واتساپ",
-    "description": "سفارش و مشاوره سریع",
-    "url": "https://wa.me/989120000000",
-    "icon": "whatsapp"
-  },
-  {
-    "id": "youtube",
-    "title": "یوتیوب",
-    "description": "آموزش و بررسی محصولات",
-    "url": "https://youtube.com/@robotmarket",
-    "icon": "youtube"
-  },
-  {
-    "id": "support",
-    "title": "پشتیبانی آنلاین",
-    "description": "گفت‌وگو با تیم پشتیبانی",
-    "url": "https://example.com/support",
+    "id": "bale-join",
+    "title": "کانال پیام‌رسان بله",
+    "description": "عضویت در کانال",
+    "url": "https://ble.ir/join/AiTbV6UpBA",
     "icon": "chat"
   },
   {
-    "id": "call",
-    "title": "تماس تلفنی",
-    "description": "۹ صبح تا ۹ شب، همه‌روزه",
-    "url": "tel:+982100000000",
-    "icon": "phone"
+    "id": "factory-address",
+    "title": "آدرس کارخانه",
+    "description": "شهرک صنعتی توس، پلاک ۱۱۰",
+    "url": "https://www.google.com/maps/search/?api=1&query=%D9%85%D8%B4%D9%87%D8%AF%D8%8C%20%DA%A9%DB%8C%D9%84%D9%88%D9%85%D8%AA%D8%B1%20%DB%B8%20%D8%AC%D8%A7%D8%AF%D9%87%20%D9%85%D8%B4%D9%87%D8%AF%20-%20%DA%86%D9%86%D8%A7%D8%B1%D8%A7%D9%86%D8%8C%20%D8%AF%D9%88%D8%B1%20%D8%A8%D8%B1%DA%AF%D8%B1%D8%AF%D8%A7%D9%86%20%D8%A7%D8%B5%D9%84%DB%8C%20%D8%B4%D9%87%D8%B1%DA%A9%20%D8%B5%D9%86%D8%B9%D8%AA%DB%8C%20%D8%AA%D9%88%D8%B3%20%D8%A8%D9%87%20%D8%B3%D9%85%D8%AA%20%D9%85%D8%B4%D9%87%D8%AF%D8%8C%20%D8%A8%D8%B9%D8%AF%20%D8%A7%D8%B2%20%D9%86%DB%8C%D8%B1%D9%88%DA%AF%D8%A7%D9%87%D8%8C%20%D8%A7%D9%88%D9%84%DB%8C%D9%86%20%D9%81%D8%B1%D8%B9%DB%8C%20%D8%B3%D9%85%D8%AA%20%D8%B1%D8%A7%D8%B3%D8%AA%20(%D8%AE%DB%8C%D8%A7%D8%A8%D8%A7%D9%86%20%DA%A9%D8%A7%D9%84%D9%87)%D8%8C%20%D8%A7%D9%88%D9%84%DB%8C%D9%86%20%DA%A9%D9%88%DA%86%D9%87%20%D8%B3%D9%85%D8%AA%20%D8%B1%D8%A7%D8%B3%D8%AA%D8%8C%20%D9%BE%D9%84%D8%A7%DA%A9%20%DB%B1%DB%B1%DB%B0%D8%8C%20%D8%B4%D8%B1%DA%A9%D8%AA%20%D9%86%DA%AF%DB%8C%D9%86%20%D8%B3%D8%A7%D8%B2%D8%A7%D9%86%20%D9%BE%DB%8C%D8%B4%DA%AF%D8%A7%D9%85%20%D8%B1%D8%A7%D8%AF%D9%85%D9%87%D8%B1%20%D8%A2%D8%AA%D9%88%D8%B3%D8%A7",
+    "icon": "link"
+  },
+  {
+    "id": "sales-office-address",
+    "title": "دفتر فروش",
+    "description": "برج نخل، واحد ۴۰۱",
+    "url": "https://www.google.com/maps/search/?api=1&query=%D9%85%D8%B4%D9%87%D8%AF%D8%8C%20%D9%86%D8%A8%D8%B4%20%D9%BE%DB%8C%D8%A7%D9%85%D8%A8%D8%B1%20%D8%A7%D8%B9%D8%B8%D9%85%20%DB%B7%D8%8C%20%D8%AC%D9%86%D8%A8%20%D8%A8%DB%8C%D9%85%D8%A7%D8%B1%D8%B3%D8%AA%D8%A7%D9%86%20%D8%B1%D8%B6%D9%88%DB%8C%D8%8C%20%D8%A8%D8%B1%D8%AC%20%D9%86%D8%AE%D9%84%D8%8C%20%D9%88%D8%A7%D8%AD%D8%AF%20%DB%B4%DB%B0%DB%B1",
+    "icon": "link"
   }
 ]

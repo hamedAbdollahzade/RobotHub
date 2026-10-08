@@ -6,12 +6,13 @@ import {getIcon} from "./icons";
 export default function ItemCard({item, index}) {
     const [pressed, setPressed] = useState(false);
     const isTel = item.url.startsWith("tel:");
+    const isExternal = /^https?:\/\//.test(item.url);
 
     return (
         <a
             href={item.url}
-            target={isTel ? "_self" : ""}
-            rel={isTel ? undefined : "noopener noreferrer"}
+            target={isExternal ? "_blank" : "_self"}
+            rel={isExternal ? "noopener noreferrer" : undefined}
             className={`card${pressed ? " is-pressed" : ""}`}
             style={{"--stagger": index}}
             onPointerDown={() => setPressed(true)}

@@ -1,6 +1,6 @@
 # روبات مارکت — لینک‌هاب PWA
 
-یک صفحه‌ی ساده و ریسپانسیو (Next.js 14 / App Router) که چند آیتم رو به‌صورت گرید نشون می‌ده و با کلیک/تاچ روی هرکدوم، لینک مربوطه در تب جدید باز می‌شه. کاملاً PWA است (قابل نصب روی موبایل و دسکتاپ، آیکون از روی لوگوی خودتون ساخته شده، و آفلاین هم تا حدی کار می‌کنه).
+یک صفحه‌ی ساده و ریسپانسیو (Next.js 14 / App Router) که چند آیتم رو به‌صورت گرید نشون می‌ده و با کلیک/تاچ روی هرکدوم، لینک مربوطه باز می‌شه. لینک‌های وب در تب جدید باز می‌شن و تماس تلفنی مستقیم با شماره‌گیر دستگاه باز می‌شه. خروجی پروژه استاتیکه و برای GitHub Pages آماده شده.
 
 ## اجرا روی سیستم خودتون
 
@@ -15,10 +15,32 @@ npm run dev
 
 ```bash
 npm run build
-npm run start
 ```
 
-> نکته: PWA (service worker) فقط در حالت production (`npm run build` + `npm run start`) یا بعد از دیپلوی فعال می‌شه، نه در `npm run dev`.
+برای build مخصوص GitHub Pages:
+
+```bash
+npm run build:github
+```
+
+خروجی داخل پوشه‌ی `out` ساخته می‌شه.
+
+> نکته: PWA (service worker) فقط بعد از build و روی هاست production یا localhost فعال می‌شه، نه در `npm run dev`.
+
+## انتشار روی GitHub Pages
+
+این پروژه workflow آماده دارد: `.github/workflows/deploy.yml`.
+
+1. پروژه را روی شاخه‌ی `main` پوش کنید.
+2. در GitHub به Settings → Pages بروید.
+3. Source را روی **GitHub Actions** بگذارید.
+4. workflow به‌صورت خودکار build می‌گیرد و پوشه‌ی `out` را منتشر می‌کند.
+
+با توجه به نام repo فعلی، آدرس Pages این شکلی خواهد بود:
+
+```text
+https://hamedAbdollahzade.github.io/RobotHub/
+```
 
 ## اضافه/ویرایش کردن آیتم‌ها
 
@@ -26,10 +48,10 @@ npm run start
 
 ```json
 {
-  "id": "shop",
-  "title": "فروشگاه اینترنتی",
-  "description": "خرید آنلاین قطعات و ربات‌ها",
-  "url": "https://example.com/shop",
+  "id": "website",
+  "title": "وب‌سایت",
+  "description": "my-rm.com",
+  "url": "https://my-rm.com/",
   "icon": "store"
 }
 ```
@@ -69,10 +91,6 @@ npm run start
 - **اندروید/کروم:** پیام «افزودن به صفحه اصلی» خودکار ظاهر می‌شه یا از منوی سه‌نقطه.
 - **iOS/سافاری:** دکمه Share → «Add to Home Screen».
 - **دسکتاپ کروم/اج:** آیکون نصب کنار آدرس‌بار.
-
-## دیپلوی
-
-ساده‌ترین راه، [Vercel](https://vercel.com) است (سازنده‌ی Next.js): پروژه رو در گیت‌هاب پوش کنید و در Vercel ایمپورت کنید — نیازی به تنظیمات اضافه نیست. هر هاست دیگه‌ای که Node.js رو ساپورت کنه (یا حتی `next export` برای هاست استاتیک با کمی تغییر) هم جواب می‌ده.
 
 ## فونت
 

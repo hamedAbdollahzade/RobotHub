@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "next dev --hostname 192.168.1.71",
+    "dev": "next dev",
     "build": "next build",
-    "start": "next start",
+    "build:github": "NEXT_PUBLIC_BASE_PATH=/RobotHub next build",
     "lint": "next lint"
   },
   "dependencies": {
